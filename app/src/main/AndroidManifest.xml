@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".CreateActivity" />
-        <activity android:name=".ZipActivity"></activity>
+        <activity android:name=".ZipActivity" />
+        <activity android:name=".NewActivity"></activity>
     </application>
 
 </manifest>
