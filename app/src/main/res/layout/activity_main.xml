@@ -4,11 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.xhh.rxjavaoperatorsproject.MainActivity">
 
     <Button
         android:id="@+id/button01"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="RxJava中的create操作符的使用" />
+        android:text="RxJava中的create,map,concat操作符的使用" />
+
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RxJava中的zip,,flatmap操作符的使用" />
 </LinearLayout>
